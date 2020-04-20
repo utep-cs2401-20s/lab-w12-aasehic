@@ -5,7 +5,8 @@ class myBinarySearchTreeNode{
     
   myBinarySearchTreeNode(int inValue){
     // created a new node with empty child pointers
-
+    this.myValue = inValue;
+    myBinarySearchTreeNode left;
   }
   
   myBinarySearchTreeNode(int[] A){
